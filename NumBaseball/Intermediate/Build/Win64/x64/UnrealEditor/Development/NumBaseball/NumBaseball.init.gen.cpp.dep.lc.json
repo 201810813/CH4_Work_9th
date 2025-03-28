@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\seung\\documents\\unreal projects\\numbaseball\\intermediate\\build\\win64\\unrealeditor\\inc\\numbaseball\\uht\\numbaseball.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\seung\\documents\\unreal projects\\numbaseball\\intermediate\\build\\win64\\x64\\numbaseballeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\seung\\documents\\unreal projects\\numbaseball\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\numbaseball\\definitions.numbaseball.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

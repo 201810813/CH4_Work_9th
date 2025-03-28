@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\NumBaseball.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NumBaseball.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\NumBaseballEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\NumBaseball">
+      <UniqueIdentifier>{235C257A-86A3-36D8-8B75-4697E22E17F0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\NumBaseball\NumBaseball.Build.cs">
+      <Filter>Source\NumBaseball</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\NumBaseball\NumBaseball.cpp">
+      <Filter>Source\NumBaseball</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NumBaseball\NumBaseball.h">
+      <Filter>Source\NumBaseball</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

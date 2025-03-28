@@ -1,0 +1,16 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-NumBaseball.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\NumBaseballEditor\Development\UnrealEd\SharedPCH.UnrealEd.Project.ValApi.Cpp20.h.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\BBGameModeBase.gen.cpp.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\NumBaseball.init.gen.cpp.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\NumBaseball.cpp.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\BBGameModeBase.cpp.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\PerModuleInline.gen.cpp.obj"
+"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\Default.rc2.res"
+/OUT:"C:\Users\seung\Documents\Unreal Projects\NumBaseball\Intermediate\Build\Win64\x64\UnrealEditor\Development\NumBaseball\UnrealEditor-NumBaseball.lib"
