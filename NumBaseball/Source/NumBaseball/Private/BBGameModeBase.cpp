@@ -57,10 +57,10 @@ void ABBGameModeBase::BeginPlay()
 
 void ABBGameModeBase::IncreaseGuessCount(ABBPlayerController* ChattingBBPlayerController)
 {
-	ABBPlayerState* CXPS = ChattingBBPlayerController->GetPlayerState<ABBPlayerState>();
-	if (IsValid(CXPS) == true)
+	ABBPlayerState* BBPS = ChattingBBPlayerController->GetPlayerState<ABBPlayerState>();
+	if (IsValid(BBPS) == true)
 	{
-		CXPS->CurrentAttempt++;
+		BBPS->CurrentAttempt++;
 	}
 }
 
@@ -78,6 +78,15 @@ void ABBGameModeBase::PrintChatMessage(ABBPlayerController* InChattingBBPlayerCo
 			ABBPlayerController* BBPlayerController = *It;
 			if (IsValid(BBPlayerController) == true)
 			{
+				ABBPlayerState* BBPS = InChattingBBPlayerController->GetPlayerState<ABBPlayerState>();
+				if (BBPS)
+				{
+					if (BBPS->CurrentAttempt >= BBPS->MaxAttempt)
+					{
+						BBPlayerController->ClientRPCPrintChatMessageString(FString(TEXT("기회가 끝났습니다.")));
+						return;
+					}
+				}
 				int32 StrikeCount = FCString::Atoi(*JudgeResultString.Left(1));
 				JugdeGame(InChattingBBPlayerController, StrikeCount);
 				FString CombinedMessageString = InChatMessageString + TEXT(" -> ") + JudgeResultString;
@@ -202,12 +211,12 @@ void ABBGameModeBase::JugdeGame(ABBPlayerController* ChattingBBPlayerController,
 	else
 	{
 		bool bIsDraw = true;
-		for (const auto& CXPlayerController : PlayerControllers)
+		for (const auto& BBPlayerController : PlayerControllers)
 		{
-			ABBPlayerState* CXPS = CXPlayerController->GetPlayerState<ABBPlayerState>();
-			if (IsValid(CXPS) == true)
+			ABBPlayerState* BBPS = BBPlayerController->GetPlayerState<ABBPlayerState>();
+			if (IsValid(BBPS) == true)
 			{
-				if (CXPS->CurrentAttempt < CXPS->MaxAttempt)
+				if (BBPS->CurrentAttempt < BBPS->MaxAttempt)
 				{
 					bIsDraw = false;
 					break;

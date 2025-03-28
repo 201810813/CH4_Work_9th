@@ -9,7 +9,9 @@
             "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\source\\numbaseball\\public\\bbplayerstate.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\playerstate.h",
             "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\playerstate.generated.h",
-            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\unrealeditor\\inc\\numbaseball\\uht\\bbplayerstate.generated.h"
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\unrealeditor\\inc\\numbaseball\\uht\\bbplayerstate.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\public\\net\\unrealnetwork.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\net\\core\\public\\net\\core\\propertyconditions\\propertyconditions.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
