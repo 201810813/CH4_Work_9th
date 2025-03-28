@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\source\\numbaseball\\private\\baseballfuctionlibrary.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\x64\\numbaseballeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\numbaseball\\definitions.numbaseball.h",
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\source\\numbaseball\\public\\baseballfuctionlibrary.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

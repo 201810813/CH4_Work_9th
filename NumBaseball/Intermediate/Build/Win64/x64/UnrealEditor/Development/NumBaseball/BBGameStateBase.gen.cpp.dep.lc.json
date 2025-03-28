@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\unrealeditor\\inc\\numbaseball\\uht\\bbgamestatebase.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\x64\\numbaseballeditor\\development\\unrealed\\sharedpch.unrealed.project.valapi.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\numbaseball\\definitions.numbaseball.h",
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\source\\numbaseball\\public\\bbgamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamestatebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "c:\\program files\\epic games\\ue_5.5\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamestatebase.generated.h",
+            "c:\\users\\seung\\documents\\github\\ch4_work_9th\\numbaseball\\intermediate\\build\\win64\\unrealeditor\\inc\\numbaseball\\uht\\bbgamestatebase.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -38,5 +38,29 @@
     <ClCompile Include="..\..\Source\NumBaseball\NumBaseball.h">
       <Filter>Source\NumBaseball</Filter>
     </ClCompile>
+    <Filter Include="Source\NumBaseball\Private">
+      <UniqueIdentifier>{0E893BD1-5B7B-377E-84DD-DBFEF0A96ED1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NumBaseball\Private\BBGameModeBase.cpp">
+      <Filter>Source\NumBaseball\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NumBaseball\Private\BBPlayerController.cpp">
+      <Filter>Source\NumBaseball\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NumBaseball\Private\BBUserWidget.cpp">
+      <Filter>Source\NumBaseball\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\NumBaseball\Public">
+      <UniqueIdentifier>{6819ADA0-E33E-364C-86AF-FE4877AF6FF6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\NumBaseball\Public\BBGameModeBase.h">
+      <Filter>Source\NumBaseball\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NumBaseball\Public\BBPlayerController.h">
+      <Filter>Source\NumBaseball\Public</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\NumBaseball\Public\BBUserWidget.h">
+      <Filter>Source\NumBaseball\Public</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -29,9 +29,6 @@ struct Z_Construct_UClass_ABBGameModeBase_Statics
 {
 #if WITH_METADATA
 	static constexpr UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "/**\n * \n */" },
-#endif
 		{ "HideCategories", "Info Rendering MovementReplication Replication Actor Input Movement Collision Rendering HLOD WorldPartition DataLayers Transformation" },
 		{ "IncludePath", "BBGameModeBase.h" },
 		{ "ModuleRelativePath", "Public/BBGameModeBase.h" },
@@ -82,14 +79,14 @@ ABBGameModeBase::~ABBGameModeBase() {}
 // End Class ABBGameModeBase
 
 // Begin Registration
-struct Z_CompiledInDeferFile_FID_Users_seung_Documents_Unreal_Projects_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics
+struct Z_CompiledInDeferFile_FID_Users_seung_Documents_GitHub_CH4_Work_9th_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics
 {
 	static constexpr FClassRegisterCompiledInInfo ClassInfo[] = {
-		{ Z_Construct_UClass_ABBGameModeBase, ABBGameModeBase::StaticClass, TEXT("ABBGameModeBase"), &Z_Registration_Info_UClass_ABBGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABBGameModeBase), 2911558355U) },
+		{ Z_Construct_UClass_ABBGameModeBase, ABBGameModeBase::StaticClass, TEXT("ABBGameModeBase"), &Z_Registration_Info_UClass_ABBGameModeBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ABBGameModeBase), 158861593U) },
 	};
 };
-static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_seung_Documents_Unreal_Projects_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_403607556(TEXT("/Script/NumBaseball"),
-	Z_CompiledInDeferFile_FID_Users_seung_Documents_Unreal_Projects_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_seung_Documents_Unreal_Projects_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics::ClassInfo),
+static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_seung_Documents_GitHub_CH4_Work_9th_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_4054674189(TEXT("/Script/NumBaseball"),
+	Z_CompiledInDeferFile_FID_Users_seung_Documents_GitHub_CH4_Work_9th_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_seung_Documents_GitHub_CH4_Work_9th_NumBaseball_Source_NumBaseball_Public_BBGameModeBase_h_Statics::ClassInfo),
 	nullptr, 0,
 	nullptr, 0);
 // End Registration
